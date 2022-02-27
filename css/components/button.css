@@ -1,0 +1,22 @@
+.btn-banner {
+    color: #eeeeee;
+
+    background-color: rgb(34, 84, 178);
+    border-radius: 3px;
+
+    padding: 15px 30px;
+
+    text-decoration: none;
+
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .3);
+
+    font-weight: bold;
+
+    transition: color 0.3s ease;
+}
+
+
+
+.btn-banner:hover {
+    background-color: #9a1c1c;
+}

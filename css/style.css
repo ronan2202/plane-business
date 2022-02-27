@@ -1,0 +1,189 @@
+/*Importing CSS components*/
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:600&display=swap');
+
+body {
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    background-color: rgb(250, 250, 250);
+    margin: 0px 0px;
+
+}
+
+
+#div-container {
+    width: 900px;
+    margin: 0px auto;
+}
+
+.title-main {
+    text-align: center;
+}
+
+.title-main h2 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    color: #59b5f3;
+
+    margin: 0px 0px 30px 0px;
+}
+
+/*----------------- Background --------------*/
+.background-pub {
+    height: 200px;
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.1) 50%),url(../images/pub.jpg);
+    padding: 40px;
+}
+
+.background-pub h3, .background-pub p {
+    color: white;
+}
+
+.background-pub2 {
+    height: 200px;
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 50%),url(../images/chin.jpg);
+    padding: 40px;
+    background-size: cover;
+    background-position-y: -310px;
+}
+
+.background-pub2 h3, .background-pub2 p {
+    color: white;
+}
+
+h2 {
+    color: #1b4e9a;
+}
+
+#name {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Oswald;
+    letter-spacing: 0px;
+    color: #1b7c9a;
+    text-align: center;
+
+    margin: 15px 0px 0px 0px;
+}
+
+.rond {
+    width: 200px;
+    border-radius: 100%;
+
+}
+
+.description {
+    background: #38aecc;
+    color: #ebebeb;
+}
+
+.box-white {
+    border-radius: 4px;
+
+    margin: 40px;
+    padding: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.box-white img {
+    margin-bottom: 15px;
+}
+
+.btn-orange {
+    background: rgb(44, 189, 233);
+    background: linear-gradient(159deg, rgba(44, 189, 233) 0%, rgba(245, 85, 85, 1) 100%);
+    border-radius: 3px;
+
+    padding: 10px 20px;
+    margin-top: 500px;
+
+    font-family: Roboto;
+    text-decoration: none;
+
+    color: white;
+}
+
+
+.btn-orange:hover {
+
+    background: rgb(44, 189, 233);
+    background: linear-gradient(159deg, rgba(44, 189, 233) 0%, rgb(71, 121, 213) 100%);
+}
+
+.div-social {
+    width: 1000px;
+    margin: 0px auto;
+
+    text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 20px;
+}
+
+.list-inline i:hover {
+    opacity: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-twitter {
+    color: Dodgerblue;
+}
+
+.fa-beer {
+    color: rgb(0, 102, 255);
+}
+
+.fa-facebook-f {
+    color: #4267B2;
+}
+
+/* --------- MEDIA QUARIES----------*/
+@media (max-width: 970px) {
+    #div-container {
+        width: 850px;
+    }
+}
+
+@media (max-width: 850px) {
+    #div-container {
+        width: 750px;
+    }
+}
+
+@media (max-width: 720px) {
+    #div-container {
+        width: 650px;
+    }
+}
+
+@media (max-width: 613px) {
+    #div-container {
+        width: 550px;
+    }
+}
+
+@media (max-width: 500px) {
+    #div-container {
+        width: 450px;
+    }
+
+    #div1 img {
+        width: 200px;
+
+    }
+}
